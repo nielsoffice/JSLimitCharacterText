@@ -9,7 +9,8 @@ let targetElem = jQuery('.title-class');
 // from 0 to 10 instead of having large text 
 // Default *like : Titlefghjaskklasjlasbdabsldkhalskdjakldhajsbjlashdlkasdhlaksdhlaksdhalksdhal
 // Output *To : Titlefghjask
-targetElem.text(targetElem.text().substring(0,10)) // .substring(0,10)+'...') // Output *To : Titlefghjask ...
+targetElem.text(targetElem.text().substring(0,10)) // .substring(0,10)+'...') 
+// Output *To : Titlefghjask ...
 ```
 
 ```JS
